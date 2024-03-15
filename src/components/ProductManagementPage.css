@@ -1,0 +1,29 @@
+/* ProductList.css */
+.product-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    th, td {
+      font-size: 14px;
+    }
+  }
+  
